@@ -1,0 +1,102 @@
+python train_new.py -data cifar100 -num_task 5 -epochs_gan 501 -tradeoff 1 -epochs 201 -lr_decay_step 200 -log_dir cifar100_10tasks -dir ../ -gpu 0
+# 测试
+python test.py -data cifar100 -num_task 5 -epochs 201 -dir D:/dataset -gpu 0 -r checkpoints/cifar100_5tasks_0227night/  -gpu 0 -name cifar100_5
+
+cifar100_10
+python train_new.py -data cifar100 -num_task 10 -epochs_gan 501 -tradeoff 1 -epochs 201 -lr_decay_step 200 -log_dir cifar100_10 -dir /dataset -gpu 0
+python train_new.py -data cifar100 -num_task 10 -epochs_gan 501 -tradeoff 2 -epochs 201 -lr_decay_step 200 -log_dir cifar100_10_tradeoff2 -dir /dataset -gpu 0
+
+
+mnist
+python train_new.py -data mnist  -num_class 10 -nb_cl_fg 2 -num_task 4 -epochs_gan 301 -tradeoff 1 -epochs 101 -lr 1e-3 -gan_lr 1e-4 -lr_decay_step 20 -gan_lr_decay_step 50 -log_dir mnist10_5 -dir D:/Dataset -gpu 0
+
+python train_new.py -data mnist  -num_class 10 -nb_cl_fg 2 -num_task 4 -epochs_gan 301 -tradeoff 1 -epochs 21 -lr 1e-3 -latent_dim 100  -lr_decay_step 20 -gan_lr 0.0002 -gan_lr_decay_step 150 -log_dir mnist10_5 -dir D:/Dataset -gpu 0
+                d_loss_cgan = d_loss_cgan_p + d_loss_cgan_n
+
+
+python train_mnist.py -data mnist  -num_class 10 -nb_cl_fg 2 -num_task 4 -epochs_gan 301 -tradeoff 1 -epochs 21 -lr 1e-3 -latent_dim 100  -lr_decay_step 20 -gan_lr 0.0002 -gan_lr_decay_step 150 -log_dir
+mnist10_5 -dir D:/Dataset -gpu 0
+
+
+1）mnist10_5   t_generated_fake\GFR_0-副本
+python train_mnist.py -data mnist -G_type linear -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 100  -tradeoff 1
+-epochs 101 -lr 1e-3  -epochs_gan 301  -lr_decay_step 20 -gan_lr 0.0002 -gan_lr_decay_step 150 -log_dir mnist10_5 -dir D:/Dataset -gpu 0
+
+mnist10_5_linear
+>>python train_mnist.py -data mnist -G_type linear -num_class 10 -nb_cl_fg 2 -num_task 4
+-BatchSize 128   -epochs 101 -epochs_gan 101 -lr 1e-3  -lr_decay_step 90 -gan_lr 0.0002 -gan_lr_decay_step 60 -log_dir mnist10_5_linear -dir D:/Dataset -gpu 0 -tradeoff 1
+gan学习率别衰减
+-BatchSize 128   -epochs 101 -epochs_gan 101 -lr 1e-3  -lr_decay_step 90 -gan_lr 0.0002 -gan_lr_decay_step 150 -log_dir mnist10_5_linear_ -dir D:/Dataset -gpu 0 -tradeoff 1
+
+mnist_linear_ssim
+python train_mnist.py -data mnist -G_type linear -num_class 10 -nb_cl_fg 2 -num_task 4 -n_critic 1 -BatchSize 128 -epochs 101 -lr 1e-3  -epochs_gan 201  -lr_decay_step 100 -gan_lr 0.0002 -gan_lr_decay_step 90 -log_dir mnist_linear_ssim -dir D:/Dataset -gpu 0 -tradeoff 1
+
+
+2）✔ mnist10_5_convT     t_generated_fake\GFR_0
+python train_mnist.py -data mnist -G_type convt -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 32  -tradeoff 1 -epochs 101 -epochs_gan 51 -lr 1e-3   -lr_decay_step 20 -gan_lr 0.0002 -gan_lr_decay_step 150 -log_dir mnist10_5_convT -dir D:/Dataset -gpu 0
+python test.py -data mnist -num_class 10 -num_task 4 -nb_cl_fg 2 -epochs 101 -dir D:/dataset -gpu 0 -r checkpoints/mnist10_5_convT/  -gpu 0 -name mnist10_5_convT
+
+
+
+3)mnist10_5_infoGAN
+python train_info.py -data mnist -G_type infoGAN -n_critic 1 -input_size 32 -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 64  -tradeoff 1 -dir D:/Dataset -gpu 0
+-latent_dim 62 -epochs 201 -lr 1e-3  -epochs_gan 101   -lr_decay_step 200  -log_dir mnist100_10_infoGAN
+    python train_info.py -data mnist -G_type infoGAN -n_critic 1 -latent_dim 62 -input_size 32 -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 64  -tradeoff 1 -epochs 201 -lr 1e-3  -epochs_gan 101  -lr_decay_step 20  -log_dir mnist100_10_infoGAN -dir D:/Dataset -gpu 0
+python main.py --dataset mnist --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.0002
+
+
+mnist10_5_convT32
+python train_mnist.py -data mnist -G_type convt -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 128  -tradeoff 1 -epochs 101 -epochs_gan 51 -lr 1e-3   -lr_decay_step 20 -gan_lr 0.0002 -gan_lr_decay_step 150 -log_dir mnist10_5_convT32 -dir D:/Dataset -gpu 0
+
+fashion-mnist
+>>python train_mnist.py -data fashion_mnist -G_type linear -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 128  -tradeoff 1 -dir D:/Dataset -gpu 0
+-epochs 101 -epochs_gan 201 -lr 1e-3  -lr_decay_step 100 -gan_lr 0.0002 -gan_lr_decay_step 150 -log_dir fashion_mnist10_5_linear_
+>>python test.py -data fashion_mnist -num_class 10 -num_task 4 -nb_cl_fg 2 -epochs 101 -dir D:/dataset -gpu 0 -r checkpoints/fashion_mnist10_5_linear_/  -gpu 0 -name fashion_mnist10_5_linear_
+
+fashion_mnist10_5_conv_
+>>python train_mnist.py -data fashion_mnist -G_type convt -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 8 -n_critic 1 -tradeoff 1 -dir D:/Dataset -gpu 0 -epochs 101 -epochs_gan 101 -lr 1e-3  -lr_decay_step 100 -gan_lr 0.0002 -gan_lr_decay_step 150 -log_dir fashion_mnist10_5_conv_ -start 2
+>>python train_mnist.py -data fashion_mnist -G_type convt -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 8 -n_critic 1 -tradeoff 1 -dir D:/Dataset -gpu 0 -epochs 15 -epochs_gan 1 -lr 1e-3  -lr_decay_step 100 -gan_lr 0.0002 -gan_lr_decay_step 150 -log_dir f
+
+
+python main.py --dataset fashion-mnist --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.0002  n_c=5 info副本
+python main.py --dataset fashion-mnist --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.0002  n_c=1 info
+
+
+
+cifar100_10_infoGAN
+python train_info.py -data cifar100 -G_type infoGAN -n_critic 1 -latent_dim 62 -input_size 32 -num_class 100 -nb_cl_fg 50 -num_task 10 -BatchSize 64  -tradeoff 1 -epochs 201 -lr 1e-3  -epochs_gan 101  -lr_decay_step 20  -log_dir cifar100_10_infoGAN -dir D:/Dataset -gpu 0
+D:\Project\PycharmProject\GImgR\t_generated_fake\cifar100\infoGAN
+
+
+
+python test.py -data cifar10 -num_class 10 -num_task 4 -nb_cl_fg 2 -epochs 201 -dir D:/dataset -gpu 0 -r checkpoints/cifar10_5_infoGAN/  -gpu 0 -name cifar10_5_infoGAN
+cifar10_5_infoGAN
+python train_info.py -data cifar10 -G_type infoGAN
+-n_critic 5 -latent_dim 62 -input_size 32 -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 64  -tradeoff 1 -epochs 201 -lr 1e-3 -gan_lr 0.0002  -epochs_gan 301  -lr_decay_step 200  -log_dir cifar10_5_infoGAN -dir D:/Dataset -gpu 0
+cifar10_5_infoGAN-4
+-n_critic 5 -latent_dim 62 -input_size 32 -num_class 10 -nb_cl_fg 2 -num_task 4 -BatchSize 64  -tradeoff 1 -epochs 201 -lr 1e-4 -gan_lr 0.0002  -epochs_gan 301  -lr_decay_step 200  -log_dir cifar10_5_infoGAN-4 -dir D:/Dataset -gpu 0
+
+
+
+cifar10_5
+python train_new.py -data cifar10 -num_class 10 -nb_cl_fg 2 -num_task 4 -epochs_gan 501 -tradeoff 1 -epochs 201 -lr 1e-3 -lr_decay_step 200 -log_dir cifar10_5 -dir /dataset -gpu 0
+python test.py -data cifar10 -num_class 10 -num_task 4 -nb_cl_fg 2 -epochs 201 -dir D:/dataset -gpu 0 -r checkpoints/cifar10_5/  -gpu 0 -name cifar10_5
+generated_fake/GFR_%d/epoch_%d.png
+
+× 高斯 python main.py --dataset cifar10 --gan_type infoGAN --epoch 101 --batch_size 64 --lrG 0.0002 --lrD 0.001
+× 均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 101 --batch_size 64 --lrG 0.0002 --lrD 0.0002
+ 均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 101 --batch_size 64 --lrG 0.0002 --lrD 0.0002  --z 100
+ 均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.0002  --z 200
+ 均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.001  --z 200
+    Epoch: [ 1] [ 300/ 781] D_loss: 1.48577750, G_loss: 0.65005243, info_loss: 2.88984513
+ 均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.0001  --z 200 跳得不明显
+ 均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.0001  --z 200 lamda 0.1
+均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.001  --z 200  0.5
+均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.001  --z 100  0.5
+均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.0002 --lrD 0.001  --z 200  0.5 n_critic=5
+×均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.00002 --lrD 0.001  --z 200 0.5 n_critic=5
+
+均匀 python main.py --dataset cifar10 --gan_type infoGAN --epoch 201 --batch_size 64 --lrG 0.002 --lrD 0.0002  --z 100 0.5 n_critic=5
+
+
+D:\Project\PycharmProject\GImgR\results\cifar10\infoGAN

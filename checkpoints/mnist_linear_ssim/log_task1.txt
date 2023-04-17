@@ -1,0 +1,417 @@
+Learn Rate  	1.0e-03
+Epochs  	00101
+Log Path 	mnist_linear_ssim
+Data Set 	 mnist
+Batch Size  	 128
+Embedded Dimension 	 10
+Begin to train the network
+##################################################
+[0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0, 0.5, 0.256, 0.512, 1.0]
+[GAN Epoch 00001]	 Dp Loss: 0.48612 Dn Loss: 0.74674 	 G Loss: 17.51986 	 aug Loss: 16606.373	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 Dp Loss: 0.23259 Dn Loss: 0.31308 	 G Loss: 26.75007 	 aug Loss: 24974.826	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 Dp Loss: 0.96931 Dn Loss: 0.16842 	 G Loss: 30.26848 	 aug Loss: 29016.189	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 Dp Loss: 0.50787 Dn Loss: 0.44902 	 G Loss: 37.53642 	 aug Loss: 35820.707	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 Dp Loss: 0.44419 Dn Loss: 0.45593 	 G Loss: 39.89093 	 aug Loss: 38483.535	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 Dp Loss: 0.22036 Dn Loss: 0.22515 	 G Loss: 50.90802 	 aug Loss: 48980.238	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 Dp Loss: 0.38106 Dn Loss: 0.22446 	 G Loss: 45.11271 	 aug Loss: 43197.547	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 Dp Loss: 0.38134 Dn Loss: 0.86928 	 G Loss: 47.90318 	 aug Loss: 45363.461	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 Dp Loss: 0.79984 Dn Loss: 0.20887 	 G Loss: 44.48038 	 aug Loss: 43145.602	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 Dp Loss: 0.42416 Dn Loss: 0.72130 	 G Loss: 50.98624 	 aug Loss: 49372.758	 LwF Loss: 0.00000
+[GAN Epoch 00001]	 D Loss: 78.904 	 G Loss: 3845.810 	 LwF Loss: 0.000	  per_epoch_time: 245.429
+[GAN Epoch 00002]	 Dp Loss: 2.01532 Dn Loss: 0.43550 	 G Loss: 52.04321 	 aug Loss: 50808.879	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 Dp Loss: 0.39645 Dn Loss: 0.41501 	 G Loss: 57.86309 	 aug Loss: 56368.355	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 Dp Loss: 0.61715 Dn Loss: 0.29551 	 G Loss: 64.60118 	 aug Loss: 63215.746	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 Dp Loss: 0.71582 Dn Loss: 0.15991 	 G Loss: 67.75032 	 aug Loss: 66128.633	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 Dp Loss: 0.48889 Dn Loss: 0.27556 	 G Loss: 53.03555 	 aug Loss: 51597.504	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 Dp Loss: 0.28200 Dn Loss: 0.31378 	 G Loss: 54.95257 	 aug Loss: 53311.617	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 Dp Loss: 0.23657 Dn Loss: 0.55926 	 G Loss: 54.03266 	 aug Loss: 51494.520	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 Dp Loss: 0.48295 Dn Loss: 0.41659 	 G Loss: 54.53527 	 aug Loss: 52237.926	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 Dp Loss: 0.63795 Dn Loss: 0.28544 	 G Loss: 55.80621 	 aug Loss: 54254.992	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 Dp Loss: 1.03558 Dn Loss: 0.20173 	 G Loss: 56.03642 	 aug Loss: 54401.445	 LwF Loss: 0.00000
+[GAN Epoch 00002]	 D Loss: 80.794 	 G Loss: 5425.375 	 LwF Loss: 0.000	  per_epoch_time: 244.744
+[GAN Epoch 00003]	 Dp Loss: 1.86946 Dn Loss: 0.31927 	 G Loss: 56.36593 	 aug Loss: 55171.508	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 Dp Loss: 0.33977 Dn Loss: 0.39197 	 G Loss: 53.60291 	 aug Loss: 51853.062	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 Dp Loss: 0.56377 Dn Loss: 0.33518 	 G Loss: 52.22680 	 aug Loss: 50592.719	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 Dp Loss: 1.84391 Dn Loss: 0.05148 	 G Loss: 58.78654 	 aug Loss: 56673.387	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 Dp Loss: 0.30717 Dn Loss: 0.51039 	 G Loss: 56.34411 	 aug Loss: 54476.105	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 Dp Loss: 0.24983 Dn Loss: 0.41801 	 G Loss: 52.13799 	 aug Loss: 50651.516	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 Dp Loss: 0.23539 Dn Loss: 0.35302 	 G Loss: 54.37049 	 aug Loss: 52313.207	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 Dp Loss: 0.65945 Dn Loss: 0.17512 	 G Loss: 51.01724 	 aug Loss: 49360.941	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 Dp Loss: 0.48630 Dn Loss: 0.30990 	 G Loss: 53.15654 	 aug Loss: 51793.824	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 Dp Loss: 0.33376 Dn Loss: 0.34967 	 G Loss: 57.04222 	 aug Loss: 55538.395	 LwF Loss: 0.00000
+[GAN Epoch 00003]	 D Loss: 75.654 	 G Loss: 5190.669 	 LwF Loss: 0.000	  per_epoch_time: 250.518
+[GAN Epoch 00004]	 Dp Loss: 2.79748 Dn Loss: 0.07686 	 G Loss: 60.82789 	 aug Loss: 58470.219	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 Dp Loss: 0.25845 Dn Loss: 0.37452 	 G Loss: 56.80120 	 aug Loss: 55339.473	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 Dp Loss: 0.52863 Dn Loss: 0.27431 	 G Loss: 57.69946 	 aug Loss: 56225.934	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 Dp Loss: 0.68303 Dn Loss: 0.21109 	 G Loss: 60.28674 	 aug Loss: 58773.094	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 Dp Loss: 0.62600 Dn Loss: 0.27145 	 G Loss: 56.71201 	 aug Loss: 55420.043	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 Dp Loss: 0.48975 Dn Loss: 0.21918 	 G Loss: 52.34902 	 aug Loss: 50437.707	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 Dp Loss: 0.23856 Dn Loss: 0.23275 	 G Loss: 49.33315 	 aug Loss: 47329.793	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 Dp Loss: 0.77555 Dn Loss: 0.28059 	 G Loss: 52.78961 	 aug Loss: 51214.969	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 Dp Loss: 0.96549 Dn Loss: 0.16939 	 G Loss: 56.58749 	 aug Loss: 55134.844	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 Dp Loss: 0.31445 Dn Loss: 0.68005 	 G Loss: 57.07277 	 aug Loss: 54971.879	 LwF Loss: 0.00000
+[GAN Epoch 00004]	 D Loss: 79.810 	 G Loss: 5176.279 	 LwF Loss: 0.000	  per_epoch_time: 246.018
+[GAN Epoch 00005]	 Dp Loss: 1.80564 Dn Loss: 0.89579 	 G Loss: 58.28215 	 aug Loss: 56874.262	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 Dp Loss: 0.20951 Dn Loss: 0.37315 	 G Loss: 61.03872 	 aug Loss: 59320.195	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 Dp Loss: 0.44108 Dn Loss: 0.26834 	 G Loss: 67.00159 	 aug Loss: 65230.242	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 Dp Loss: 0.38968 Dn Loss: 0.24059 	 G Loss: 69.48957 	 aug Loss: 67663.617	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 Dp Loss: 0.32108 Dn Loss: 0.57604 	 G Loss: 68.88458 	 aug Loss: 66914.070	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 Dp Loss: 0.20260 Dn Loss: 0.49999 	 G Loss: 60.60839 	 aug Loss: 59249.488	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 Dp Loss: 0.26113 Dn Loss: 0.36417 	 G Loss: 52.00709 	 aug Loss: 49978.766	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 Dp Loss: 0.72768 Dn Loss: 0.31187 	 G Loss: 58.41462 	 aug Loss: 56940.742	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 Dp Loss: 0.53454 Dn Loss: 0.50244 	 G Loss: 62.36010 	 aug Loss: 60708.945	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 Dp Loss: 0.33554 Dn Loss: 0.63108 	 G Loss: 56.91879 	 aug Loss: 54853.125	 LwF Loss: 0.00000
+[GAN Epoch 00005]	 D Loss: 81.099 	 G Loss: 5791.834 	 LwF Loss: 0.000	  per_epoch_time: 252.409
+[GAN Epoch 00006]	 Dp Loss: 2.37531 Dn Loss: 0.15648 	 G Loss: 57.29680 	 aug Loss: 56006.891	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 Dp Loss: 0.21671 Dn Loss: 0.30988 	 G Loss: 63.39968 	 aug Loss: 61846.457	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 Dp Loss: 0.40146 Dn Loss: 0.31374 	 G Loss: 65.75862 	 aug Loss: 64123.781	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 Dp Loss: 0.32647 Dn Loss: 0.35686 	 G Loss: 65.89982 	 aug Loss: 64220.379	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 Dp Loss: 0.74230 Dn Loss: 0.15878 	 G Loss: 69.39868 	 aug Loss: 67661.062	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 Dp Loss: 0.19952 Dn Loss: 0.28748 	 G Loss: 66.97437 	 aug Loss: 65383.781	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 Dp Loss: 0.39477 Dn Loss: 0.20948 	 G Loss: 64.85416 	 aug Loss: 62993.270	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 Dp Loss: 0.92668 Dn Loss: 0.15251 	 G Loss: 56.53161 	 aug Loss: 54878.848	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 Dp Loss: 1.08430 Dn Loss: 0.17146 	 G Loss: 60.21865 	 aug Loss: 58450.941	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 Dp Loss: 0.45835 Dn Loss: 0.27967 	 G Loss: 57.36044 	 aug Loss: 56029.727	 LwF Loss: 0.00000
+[GAN Epoch 00006]	 D Loss: 73.136 	 G Loss: 5959.820 	 LwF Loss: 0.000	  per_epoch_time: 249.769
+[GAN Epoch 00007]	 Dp Loss: 2.30055 Dn Loss: 0.14346 	 G Loss: 58.08056 	 aug Loss: 56387.613	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 Dp Loss: 0.17551 Dn Loss: 0.29847 	 G Loss: 61.40621 	 aug Loss: 59659.871	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 Dp Loss: 0.43500 Dn Loss: 0.32772 	 G Loss: 64.83091 	 aug Loss: 62819.531	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 Dp Loss: 0.50445 Dn Loss: 0.37783 	 G Loss: 65.60783 	 aug Loss: 64255.777	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 Dp Loss: 0.39993 Dn Loss: 0.35648 	 G Loss: 61.61058 	 aug Loss: 60093.160	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 Dp Loss: 0.15657 Dn Loss: 0.21293 	 G Loss: 62.95786 	 aug Loss: 61049.816	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 Dp Loss: 0.38012 Dn Loss: 0.18587 	 G Loss: 58.89938 	 aug Loss: 56853.461	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 Dp Loss: 0.41276 Dn Loss: 0.34645 	 G Loss: 57.00998 	 aug Loss: 54903.980	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 Dp Loss: 1.04885 Dn Loss: 0.13746 	 G Loss: 57.78006 	 aug Loss: 56223.332	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 Dp Loss: 0.34934 Dn Loss: 0.48507 	 G Loss: 60.00180 	 aug Loss: 58167.145	 LwF Loss: 0.00000
+[GAN Epoch 00007]	 D Loss: 72.171 	 G Loss: 5778.659 	 LwF Loss: 0.000	  per_epoch_time: 247.912
+[GAN Epoch 00008]	 Dp Loss: 1.93986 Dn Loss: 0.46525 	 G Loss: 62.05511 	 aug Loss: 60616.160	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 Dp Loss: 0.26103 Dn Loss: 0.29426 	 G Loss: 67.24269 	 aug Loss: 65285.457	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 Dp Loss: 0.60068 Dn Loss: 0.34619 	 G Loss: 64.15942 	 aug Loss: 62645.496	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 Dp Loss: 0.45779 Dn Loss: 0.29080 	 G Loss: 63.82669 	 aug Loss: 62158.188	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 Dp Loss: 0.16537 Dn Loss: 0.86779 	 G Loss: 61.10743 	 aug Loss: 58873.383	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 Dp Loss: 0.12997 Dn Loss: 0.31880 	 G Loss: 65.30190 	 aug Loss: 63524.879	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 Dp Loss: 0.20258 Dn Loss: 0.39980 	 G Loss: 56.09237 	 aug Loss: 53873.750	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 Dp Loss: 0.48479 Dn Loss: 0.31576 	 G Loss: 55.06086 	 aug Loss: 54019.258	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 Dp Loss: 0.49106 Dn Loss: 0.53006 	 G Loss: 57.76877 	 aug Loss: 56228.863	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 Dp Loss: 0.54805 Dn Loss: 0.39661 	 G Loss: 62.66151 	 aug Loss: 61327.375	 LwF Loss: 0.00000
+[GAN Epoch 00008]	 D Loss: 80.985 	 G Loss: 5689.682 	 LwF Loss: 0.000	  per_epoch_time: 246.359
+[GAN Epoch 00009]	 Dp Loss: 2.13938 Dn Loss: 0.35525 	 G Loss: 56.24329 	 aug Loss: 54633.867	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 Dp Loss: 0.18147 Dn Loss: 0.38509 	 G Loss: 62.39243 	 aug Loss: 60346.652	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 Dp Loss: 0.42660 Dn Loss: 0.24093 	 G Loss: 70.13888 	 aug Loss: 68331.844	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 Dp Loss: 0.33693 Dn Loss: 0.51727 	 G Loss: 76.25209 	 aug Loss: 73974.266	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 Dp Loss: 0.32331 Dn Loss: 0.36819 	 G Loss: 67.51142 	 aug Loss: 65719.828	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 Dp Loss: 0.29903 Dn Loss: 0.31945 	 G Loss: 59.42309 	 aug Loss: 57492.578	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 Dp Loss: 0.38356 Dn Loss: 0.35048 	 G Loss: 58.09695 	 aug Loss: 56296.707	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 Dp Loss: 0.58011 Dn Loss: 0.19678 	 G Loss: 61.95624 	 aug Loss: 60190.441	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 Dp Loss: 0.80862 Dn Loss: 0.18873 	 G Loss: 59.32191 	 aug Loss: 58285.266	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 Dp Loss: 0.72834 Dn Loss: 0.22902 	 G Loss: 59.98451 	 aug Loss: 58854.574	 LwF Loss: 0.00000
+[GAN Epoch 00009]	 D Loss: 74.833 	 G Loss: 6059.609 	 LwF Loss: 0.000	  per_epoch_time: 255.998
+[GAN Epoch 00010]	 Dp Loss: 2.20717 Dn Loss: 0.54731 	 G Loss: 60.74440 	 aug Loss: 59538.547	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 Dp Loss: 0.18860 Dn Loss: 0.33321 	 G Loss: 62.19301 	 aug Loss: 60023.746	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 Dp Loss: 0.39326 Dn Loss: 0.35347 	 G Loss: 59.97485 	 aug Loss: 58244.062	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 Dp Loss: 0.29020 Dn Loss: 0.35278 	 G Loss: 60.70482 	 aug Loss: 58624.504	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 Dp Loss: 0.24965 Dn Loss: 0.47787 	 G Loss: 61.47686 	 aug Loss: 59268.609	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 Dp Loss: 0.25449 Dn Loss: 0.36585 	 G Loss: 55.35992 	 aug Loss: 53555.016	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 Dp Loss: 0.17534 Dn Loss: 0.32950 	 G Loss: 59.29578 	 aug Loss: 57128.016	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 Dp Loss: 0.55343 Dn Loss: 0.34184 	 G Loss: 56.12506 	 aug Loss: 54566.059	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 Dp Loss: 1.10601 Dn Loss: 0.09970 	 G Loss: 61.48159 	 aug Loss: 59852.996	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 Dp Loss: 0.24958 Dn Loss: 0.51366 	 G Loss: 63.36616 	 aug Loss: 61368.188	 LwF Loss: 0.00000
+[GAN Epoch 00010]	 D Loss: 68.825 	 G Loss: 5650.402 	 LwF Loss: 0.000	  per_epoch_time: 247.966
+[GAN Epoch 00011]	 Dp Loss: 1.67543 Dn Loss: 0.61764 	 G Loss: 60.03810 	 aug Loss: 58987.023	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 Dp Loss: 0.22151 Dn Loss: 0.39077 	 G Loss: 57.62667 	 aug Loss: 55512.078	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 Dp Loss: 1.35261 Dn Loss: 0.08765 	 G Loss: 61.56793 	 aug Loss: 59811.895	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 Dp Loss: 0.24471 Dn Loss: 0.27542 	 G Loss: 63.55701 	 aug Loss: 61985.738	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 Dp Loss: 0.47613 Dn Loss: 0.25833 	 G Loss: 69.68433 	 aug Loss: 68189.289	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 Dp Loss: 0.27314 Dn Loss: 0.38946 	 G Loss: 64.33700 	 aug Loss: 62795.863	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 Dp Loss: 0.30991 Dn Loss: 0.21899 	 G Loss: 64.43182 	 aug Loss: 62445.117	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 Dp Loss: 0.52994 Dn Loss: 0.43594 	 G Loss: 63.56560 	 aug Loss: 62237.672	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 Dp Loss: 0.47004 Dn Loss: 0.31603 	 G Loss: 61.88433 	 aug Loss: 60353.227	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 Dp Loss: 0.37352 Dn Loss: 0.61693 	 G Loss: 61.96783 	 aug Loss: 60071.125	 LwF Loss: 0.00000
+[GAN Epoch 00011]	 D Loss: 75.548 	 G Loss: 5929.258 	 LwF Loss: 0.000	  per_epoch_time: 249.421
+[GAN Epoch 00012]	 Dp Loss: 2.08190 Dn Loss: 0.62458 	 G Loss: 62.08366 	 aug Loss: 61093.539	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 Dp Loss: 0.17265 Dn Loss: 0.21697 	 G Loss: 60.85312 	 aug Loss: 58799.684	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 Dp Loss: 0.68295 Dn Loss: 0.16090 	 G Loss: 61.99806 	 aug Loss: 60430.469	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 Dp Loss: 0.33159 Dn Loss: 0.29897 	 G Loss: 64.08394 	 aug Loss: 62105.055	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 Dp Loss: 0.83984 Dn Loss: 0.09268 	 G Loss: 63.64460 	 aug Loss: 61894.922	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 Dp Loss: 0.31756 Dn Loss: 0.26114 	 G Loss: 67.81422 	 aug Loss: 66097.477	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 Dp Loss: 0.23223 Dn Loss: 0.23962 	 G Loss: 66.58744 	 aug Loss: 64382.203	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 Dp Loss: 0.60136 Dn Loss: 0.37905 	 G Loss: 66.11082 	 aug Loss: 64108.250	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 Dp Loss: 0.42274 Dn Loss: 0.43664 	 G Loss: 66.65557 	 aug Loss: 64872.133	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 Dp Loss: 0.14487 Dn Loss: 1.15983 	 G Loss: 65.73106 	 aug Loss: 63729.465	 LwF Loss: 0.00000
+[GAN Epoch 00012]	 D Loss: 72.523 	 G Loss: 6011.285 	 LwF Loss: 0.000	  per_epoch_time: 252.693
+[GAN Epoch 00013]	 Dp Loss: 1.70956 Dn Loss: 0.57288 	 G Loss: 64.13306 	 aug Loss: 63191.691	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 Dp Loss: 0.18301 Dn Loss: 0.28413 	 G Loss: 70.98525 	 aug Loss: 68801.047	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 Dp Loss: 0.68957 Dn Loss: 0.13186 	 G Loss: 63.96354 	 aug Loss: 62316.812	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 Dp Loss: 0.35677 Dn Loss: 0.30400 	 G Loss: 63.69281 	 aug Loss: 61653.656	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 Dp Loss: 0.75956 Dn Loss: 0.16058 	 G Loss: 59.71887 	 aug Loss: 58319.289	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 Dp Loss: 0.47753 Dn Loss: 0.36472 	 G Loss: 59.72460 	 aug Loss: 58145.926	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 Dp Loss: 0.15116 Dn Loss: 0.38805 	 G Loss: 63.07571 	 aug Loss: 60761.203	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 Dp Loss: 0.43372 Dn Loss: 0.69064 	 G Loss: 64.58257 	 aug Loss: 62796.125	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 Dp Loss: 0.51438 Dn Loss: 0.28774 	 G Loss: 59.61634 	 aug Loss: 58075.086	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 Dp Loss: 0.20683 Dn Loss: 0.78593 	 G Loss: 59.23463 	 aug Loss: 57013.805	 LwF Loss: 0.00000
+[GAN Epoch 00013]	 D Loss: 72.141 	 G Loss: 5975.463 	 LwF Loss: 0.000	  per_epoch_time: 249.732
+[GAN Epoch 00014]	 Dp Loss: 1.81550 Dn Loss: 0.57199 	 G Loss: 57.88167 	 aug Loss: 56741.645	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 Dp Loss: 0.22036 Dn Loss: 0.29558 	 G Loss: 58.68987 	 aug Loss: 56494.586	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 Dp Loss: 0.34549 Dn Loss: 0.28250 	 G Loss: 60.71902 	 aug Loss: 58523.734	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 Dp Loss: 0.21222 Dn Loss: 0.33151 	 G Loss: 64.87969 	 aug Loss: 62504.059	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 Dp Loss: 0.37654 Dn Loss: 0.23976 	 G Loss: 65.58152 	 aug Loss: 63932.980	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 Dp Loss: 0.36015 Dn Loss: 0.39213 	 G Loss: 63.10118 	 aug Loss: 61633.816	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 Dp Loss: 0.37882 Dn Loss: 0.39433 	 G Loss: 59.67340 	 aug Loss: 57832.699	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 Dp Loss: 0.85462 Dn Loss: 0.17731 	 G Loss: 61.37777 	 aug Loss: 60071.422	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 Dp Loss: 1.15336 Dn Loss: 0.09841 	 G Loss: 62.01121 	 aug Loss: 60358.211	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 Dp Loss: 0.42137 Dn Loss: 0.40742 	 G Loss: 61.41063 	 aug Loss: 59981.914	 LwF Loss: 0.00000
+[GAN Epoch 00014]	 D Loss: 71.572 	 G Loss: 5709.890 	 LwF Loss: 0.000	  per_epoch_time: 246.460
+[GAN Epoch 00015]	 Dp Loss: 2.73103 Dn Loss: 0.27904 	 G Loss: 57.10446 	 aug Loss: 56158.121	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 Dp Loss: 0.13868 Dn Loss: 0.30446 	 G Loss: 58.95268 	 aug Loss: 56619.723	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 Dp Loss: 0.40730 Dn Loss: 0.20614 	 G Loss: 60.16303 	 aug Loss: 57912.477	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 Dp Loss: 0.23006 Dn Loss: 0.24853 	 G Loss: 61.52932 	 aug Loss: 59636.621	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 Dp Loss: 1.54402 Dn Loss: 0.05850 	 G Loss: 64.29797 	 aug Loss: 62168.832	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 Dp Loss: 0.25305 Dn Loss: 0.60791 	 G Loss: 63.65736 	 aug Loss: 62389.277	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 Dp Loss: 0.30838 Dn Loss: 0.40834 	 G Loss: 63.45025 	 aug Loss: 61902.859	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 Dp Loss: 0.45268 Dn Loss: 0.52121 	 G Loss: 63.37291 	 aug Loss: 61564.863	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 Dp Loss: 0.38563 Dn Loss: 0.46338 	 G Loss: 64.21925 	 aug Loss: 62443.883	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 Dp Loss: 0.35202 Dn Loss: 0.58323 	 G Loss: 60.57135 	 aug Loss: 58489.609	 LwF Loss: 0.00000
+[GAN Epoch 00015]	 D Loss: 74.897 	 G Loss: 5877.267 	 LwF Loss: 0.000	  per_epoch_time: 256.754
+[GAN Epoch 00016]	 Dp Loss: 2.46039 Dn Loss: 0.52482 	 G Loss: 61.53353 	 aug Loss: 60807.617	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 Dp Loss: 0.14010 Dn Loss: 0.26486 	 G Loss: 60.98293 	 aug Loss: 59104.879	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 Dp Loss: 0.31143 Dn Loss: 0.18938 	 G Loss: 63.80916 	 aug Loss: 61632.492	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 Dp Loss: 0.67154 Dn Loss: 0.13944 	 G Loss: 65.59745 	 aug Loss: 63942.312	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 Dp Loss: 0.29158 Dn Loss: 0.34948 	 G Loss: 68.50707 	 aug Loss: 66578.773	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 Dp Loss: 0.22433 Dn Loss: 0.35917 	 G Loss: 65.61806 	 aug Loss: 63711.410	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 Dp Loss: 0.32074 Dn Loss: 0.38429 	 G Loss: 63.42487 	 aug Loss: 61684.898	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 Dp Loss: 0.58655 Dn Loss: 0.46280 	 G Loss: 65.23675 	 aug Loss: 63770.406	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 Dp Loss: 0.48144 Dn Loss: 0.41658 	 G Loss: 63.86919 	 aug Loss: 62252.188	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 Dp Loss: 0.62624 Dn Loss: 0.31362 	 G Loss: 64.46410 	 aug Loss: 63290.414	 LwF Loss: 0.00000
+[GAN Epoch 00016]	 D Loss: 75.806 	 G Loss: 6109.945 	 LwF Loss: 0.000	  per_epoch_time: 248.528
+[GAN Epoch 00017]	 Dp Loss: 2.22758 Dn Loss: 0.35670 	 G Loss: 64.83922 	 aug Loss: 63727.664	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 Dp Loss: 0.14352 Dn Loss: 0.24339 	 G Loss: 61.80365 	 aug Loss: 59475.184	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 Dp Loss: 0.36912 Dn Loss: 0.26500 	 G Loss: 63.64891 	 aug Loss: 61407.656	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 Dp Loss: 0.34703 Dn Loss: 0.28362 	 G Loss: 62.47120 	 aug Loss: 60481.148	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 Dp Loss: 0.36088 Dn Loss: 0.27142 	 G Loss: 62.16839 	 aug Loss: 60457.168	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 Dp Loss: 0.55524 Dn Loss: 0.50622 	 G Loss: 61.73793 	 aug Loss: 60452.754	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 Dp Loss: 0.30814 Dn Loss: 0.35970 	 G Loss: 63.34236 	 aug Loss: 61604.629	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 Dp Loss: 0.59078 Dn Loss: 0.29428 	 G Loss: 66.49534 	 aug Loss: 64800.051	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 Dp Loss: 0.75818 Dn Loss: 0.23522 	 G Loss: 63.64692 	 aug Loss: 62498.848	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 Dp Loss: 0.73314 Dn Loss: 0.20311 	 G Loss: 62.14740 	 aug Loss: 61417.758	 LwF Loss: 0.00000
+[GAN Epoch 00017]	 D Loss: 77.477 	 G Loss: 5884.322 	 LwF Loss: 0.000	  per_epoch_time: 254.577
+[GAN Epoch 00018]	 Dp Loss: 2.01776 Dn Loss: 0.33384 	 G Loss: 62.29623 	 aug Loss: 61791.754	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 Dp Loss: 0.15036 Dn Loss: 0.32700 	 G Loss: 59.20662 	 aug Loss: 57368.836	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 Dp Loss: 0.27233 Dn Loss: 0.31629 	 G Loss: 64.07043 	 aug Loss: 62125.117	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 Dp Loss: 0.37088 Dn Loss: 0.31026 	 G Loss: 65.78166 	 aug Loss: 63952.766	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 Dp Loss: 0.51181 Dn Loss: 0.21321 	 G Loss: 65.20999 	 aug Loss: 63554.652	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 Dp Loss: 0.31043 Dn Loss: 0.57819 	 G Loss: 62.74089 	 aug Loss: 61262.273	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 Dp Loss: 0.26306 Dn Loss: 0.38092 	 G Loss: 60.65836 	 aug Loss: 58831.578	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 Dp Loss: 0.72472 Dn Loss: 0.22137 	 G Loss: 58.05894 	 aug Loss: 56829.730	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 Dp Loss: 0.72374 Dn Loss: 0.18212 	 G Loss: 60.88996 	 aug Loss: 59370.383	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 Dp Loss: 0.49394 Dn Loss: 0.32938 	 G Loss: 60.12791 	 aug Loss: 59056.262	 LwF Loss: 0.00000
+[GAN Epoch 00018]	 D Loss: 72.926 	 G Loss: 5861.164 	 LwF Loss: 0.000	  per_epoch_time: 250.383
+[GAN Epoch 00019]	 Dp Loss: 2.15828 Dn Loss: 0.36926 	 G Loss: 63.90414 	 aug Loss: 62687.492	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 Dp Loss: 0.17816 Dn Loss: 0.38658 	 G Loss: 59.27470 	 aug Loss: 57084.066	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 Dp Loss: 0.54725 Dn Loss: 0.26211 	 G Loss: 59.07872 	 aug Loss: 57451.219	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 Dp Loss: 0.58739 Dn Loss: 0.13088 	 G Loss: 61.45978 	 aug Loss: 59465.574	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 Dp Loss: 0.29859 Dn Loss: 0.27980 	 G Loss: 62.07085 	 aug Loss: 60460.977	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 Dp Loss: 0.40861 Dn Loss: 0.36707 	 G Loss: 60.71918 	 aug Loss: 59341.367	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 Dp Loss: 0.33471 Dn Loss: 0.27834 	 G Loss: 61.14278 	 aug Loss: 59509.094	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 Dp Loss: 0.46304 Dn Loss: 0.37531 	 G Loss: 65.13043 	 aug Loss: 63669.504	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 Dp Loss: 0.55722 Dn Loss: 0.30950 	 G Loss: 64.80608 	 aug Loss: 63359.480	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 Dp Loss: 0.75046 Dn Loss: 0.21740 	 G Loss: 67.34297 	 aug Loss: 66352.094	 LwF Loss: 0.00000
+[GAN Epoch 00019]	 D Loss: 75.317 	 G Loss: 5826.850 	 LwF Loss: 0.000	  per_epoch_time: 253.759
+[GAN Epoch 00020]	 Dp Loss: 1.83329 Dn Loss: 1.08053 	 G Loss: 63.22818 	 aug Loss: 61755.809	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 Dp Loss: 0.08365 Dn Loss: 0.32873 	 G Loss: 60.87006 	 aug Loss: 58735.301	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 Dp Loss: 0.88476 Dn Loss: 0.10431 	 G Loss: 59.26210 	 aug Loss: 57253.680	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 Dp Loss: 0.43239 Dn Loss: 0.20357 	 G Loss: 61.63972 	 aug Loss: 59679.016	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 Dp Loss: 0.51255 Dn Loss: 0.17180 	 G Loss: 59.66111 	 aug Loss: 58127.219	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 Dp Loss: 0.21585 Dn Loss: 0.36447 	 G Loss: 62.04724 	 aug Loss: 60105.227	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 Dp Loss: 0.13527 Dn Loss: 0.53855 	 G Loss: 63.32068 	 aug Loss: 60911.738	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 Dp Loss: 0.47710 Dn Loss: 0.55066 	 G Loss: 63.08957 	 aug Loss: 61383.914	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 Dp Loss: 0.73367 Dn Loss: 0.20269 	 G Loss: 62.16584 	 aug Loss: 60724.992	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 Dp Loss: 0.33041 Dn Loss: 0.48736 	 G Loss: 65.01998 	 aug Loss: 63258.902	 LwF Loss: 0.00000
+[GAN Epoch 00020]	 D Loss: 71.933 	 G Loss: 5776.579 	 LwF Loss: 0.000	  per_epoch_time: 258.596
+[GAN Epoch 00021]	 Dp Loss: 2.81416 Dn Loss: 0.18618 	 G Loss: 59.99692 	 aug Loss: 58790.004	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 Dp Loss: 0.18722 Dn Loss: 0.25286 	 G Loss: 57.04219 	 aug Loss: 54762.176	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 Dp Loss: 0.35164 Dn Loss: 0.26018 	 G Loss: 57.17868 	 aug Loss: 55220.176	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 Dp Loss: 0.18719 Dn Loss: 0.26811 	 G Loss: 62.10151 	 aug Loss: 60284.336	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 Dp Loss: 0.49225 Dn Loss: 0.17758 	 G Loss: 63.36244 	 aug Loss: 61622.414	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 Dp Loss: 0.12291 Dn Loss: 0.51712 	 G Loss: 68.17902 	 aug Loss: 66175.891	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 Dp Loss: 0.25948 Dn Loss: 0.43146 	 G Loss: 72.65506 	 aug Loss: 70393.656	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 Dp Loss: 0.64386 Dn Loss: 0.23199 	 G Loss: 72.03877 	 aug Loss: 70239.523	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 Dp Loss: 0.63570 Dn Loss: 0.20004 	 G Loss: 70.28577 	 aug Loss: 68908.969	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 Dp Loss: 0.25175 Dn Loss: 0.67524 	 G Loss: 64.17308 	 aug Loss: 62548.125	 LwF Loss: 0.00000
+[GAN Epoch 00021]	 D Loss: 70.492 	 G Loss: 6117.073 	 LwF Loss: 0.000	  per_epoch_time: 247.932
+[GAN Epoch 00022]	 Dp Loss: 1.95362 Dn Loss: 0.41998 	 G Loss: 62.69604 	 aug Loss: 61529.859	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 Dp Loss: 0.22682 Dn Loss: 0.46999 	 G Loss: 64.39837 	 aug Loss: 62033.105	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 Dp Loss: 0.54455 Dn Loss: 0.30177 	 G Loss: 67.76949 	 aug Loss: 66081.781	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 Dp Loss: 0.17169 Dn Loss: 0.51477 	 G Loss: 65.06060 	 aug Loss: 62895.910	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 Dp Loss: 0.32228 Dn Loss: 0.38873 	 G Loss: 67.32431 	 aug Loss: 66047.625	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 Dp Loss: 0.14592 Dn Loss: 0.19415 	 G Loss: 68.26218 	 aug Loss: 66058.781	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 Dp Loss: 0.13740 Dn Loss: 0.25567 	 G Loss: 69.75534 	 aug Loss: 67521.273	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 Dp Loss: 0.53424 Dn Loss: 0.25117 	 G Loss: 73.02572 	 aug Loss: 71084.555	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 Dp Loss: 0.81244 Dn Loss: 0.14914 	 G Loss: 74.32185 	 aug Loss: 72919.969	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 Dp Loss: 1.13362 Dn Loss: 0.14510 	 G Loss: 72.32007 	 aug Loss: 71317.055	 LwF Loss: 0.00000
+[GAN Epoch 00022]	 D Loss: 70.571 	 G Loss: 6461.040 	 LwF Loss: 0.000	  per_epoch_time: 252.173
+[GAN Epoch 00023]	 Dp Loss: 2.18878 Dn Loss: 0.79620 	 G Loss: 68.13064 	 aug Loss: 66389.961	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 Dp Loss: 0.18140 Dn Loss: 0.31033 	 G Loss: 64.42596 	 aug Loss: 62464.297	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 Dp Loss: 0.52487 Dn Loss: 0.18854 	 G Loss: 68.18571 	 aug Loss: 66284.508	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 Dp Loss: 0.35132 Dn Loss: 0.22215 	 G Loss: 64.63890 	 aug Loss: 62829.984	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 Dp Loss: 0.49013 Dn Loss: 0.18635 	 G Loss: 63.76453 	 aug Loss: 62247.625	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 Dp Loss: 0.10792 Dn Loss: 0.21125 	 G Loss: 62.26952 	 aug Loss: 60496.207	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 Dp Loss: 0.28846 Dn Loss: 0.34096 	 G Loss: 63.04728 	 aug Loss: 60632.844	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 Dp Loss: 0.31860 Dn Loss: 0.42211 	 G Loss: 60.94497 	 aug Loss: 58980.676	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 Dp Loss: 0.49513 Dn Loss: 0.19733 	 G Loss: 63.95841 	 aug Loss: 62436.098	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 Dp Loss: 0.52819 Dn Loss: 0.41492 	 G Loss: 61.71081 	 aug Loss: 59988.777	 LwF Loss: 0.00000
+[GAN Epoch 00023]	 D Loss: 65.475 	 G Loss: 6088.625 	 LwF Loss: 0.000	  per_epoch_time: 253.496
+[GAN Epoch 00024]	 Dp Loss: 2.66131 Dn Loss: 0.27780 	 G Loss: 63.01092 	 aug Loss: 61844.039	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 Dp Loss: 0.30974 Dn Loss: 0.36898 	 G Loss: 62.88410 	 aug Loss: 60917.117	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 Dp Loss: 0.63864 Dn Loss: 0.23859 	 G Loss: 61.35340 	 aug Loss: 59930.570	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 Dp Loss: 0.20107 Dn Loss: 0.35540 	 G Loss: 64.16276 	 aug Loss: 62093.402	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 Dp Loss: 1.05251 Dn Loss: 0.09735 	 G Loss: 61.94196 	 aug Loss: 60330.391	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 Dp Loss: 0.12125 Dn Loss: 0.33758 	 G Loss: 66.28828 	 aug Loss: 64019.484	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 Dp Loss: 0.25442 Dn Loss: 0.39377 	 G Loss: 69.45293 	 aug Loss: 67197.664	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 Dp Loss: 0.77316 Dn Loss: 0.14424 	 G Loss: 68.43293 	 aug Loss: 66738.289	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 Dp Loss: 0.34781 Dn Loss: 0.43402 	 G Loss: 65.94713 	 aug Loss: 64106.977	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 Dp Loss: 0.29072 Dn Loss: 0.47554 	 G Loss: 65.04633 	 aug Loss: 63871.812	 LwF Loss: 0.00000
+[GAN Epoch 00024]	 D Loss: 75.841 	 G Loss: 6099.425 	 LwF Loss: 0.000	  per_epoch_time: 251.121
+[GAN Epoch 00025]	 Dp Loss: 1.06921 Dn Loss: 1.51097 	 G Loss: 63.23005 	 aug Loss: 61223.445	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 Dp Loss: 0.23825 Dn Loss: 0.31832 	 G Loss: 62.16669 	 aug Loss: 60375.543	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 Dp Loss: 0.34066 Dn Loss: 0.31170 	 G Loss: 57.35099 	 aug Loss: 55668.820	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 Dp Loss: 0.31512 Dn Loss: 0.25376 	 G Loss: 59.69466 	 aug Loss: 57848.074	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 Dp Loss: 0.71899 Dn Loss: 0.10570 	 G Loss: 60.87126 	 aug Loss: 59241.547	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 Dp Loss: 0.79120 Dn Loss: 0.10299 	 G Loss: 63.77635 	 aug Loss: 62193.453	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 Dp Loss: 0.11519 Dn Loss: 0.43153 	 G Loss: 62.77534 	 aug Loss: 60483.055	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 Dp Loss: 0.45518 Dn Loss: 0.32829 	 G Loss: 60.73318 	 aug Loss: 58826.758	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 Dp Loss: 0.92567 Dn Loss: 0.13242 	 G Loss: 63.11667 	 aug Loss: 62095.699	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 Dp Loss: 0.30802 Dn Loss: 0.43219 	 G Loss: 59.61418 	 aug Loss: 58264.961	 LwF Loss: 0.00000
+[GAN Epoch 00025]	 D Loss: 71.233 	 G Loss: 5834.035 	 LwF Loss: 0.000	  per_epoch_time: 257.629
+[GAN Epoch 00026]	 Dp Loss: 1.89941 Dn Loss: 0.29116 	 G Loss: 59.84112 	 aug Loss: 58658.480	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 Dp Loss: 0.19511 Dn Loss: 0.23285 	 G Loss: 59.17326 	 aug Loss: 57025.785	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 Dp Loss: 0.49301 Dn Loss: 0.46578 	 G Loss: 61.92263 	 aug Loss: 59792.449	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 Dp Loss: 0.23587 Dn Loss: 0.32254 	 G Loss: 62.57557 	 aug Loss: 60615.770	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 Dp Loss: 0.22486 Dn Loss: 0.52497 	 G Loss: 60.66023 	 aug Loss: 58414.066	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 Dp Loss: 0.18780 Dn Loss: 0.26384 	 G Loss: 60.64166 	 aug Loss: 58501.941	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 Dp Loss: 0.29054 Dn Loss: 0.23850 	 G Loss: 59.84908 	 aug Loss: 57642.395	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 Dp Loss: 1.42721 Dn Loss: 0.04482 	 G Loss: 62.26582 	 aug Loss: 59482.871	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 Dp Loss: 0.73560 Dn Loss: 0.20545 	 G Loss: 59.16470 	 aug Loss: 57413.898	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 Dp Loss: 0.49070 Dn Loss: 0.28500 	 G Loss: 64.37064 	 aug Loss: 63014.531	 LwF Loss: 0.00000
+[GAN Epoch 00026]	 D Loss: 70.264 	 G Loss: 5736.121 	 LwF Loss: 0.000	  per_epoch_time: 257.012
+[GAN Epoch 00027]	 Dp Loss: 2.25136 Dn Loss: 0.28413 	 G Loss: 63.13591 	 aug Loss: 61902.172	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 Dp Loss: 0.22857 Dn Loss: 0.33614 	 G Loss: 61.69673 	 aug Loss: 59857.719	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 Dp Loss: 0.31722 Dn Loss: 0.50217 	 G Loss: 62.82755 	 aug Loss: 60948.902	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 Dp Loss: 0.23184 Dn Loss: 0.43646 	 G Loss: 62.32078 	 aug Loss: 60285.594	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 Dp Loss: 0.40537 Dn Loss: 0.17754 	 G Loss: 59.66884 	 aug Loss: 57799.715	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 Dp Loss: 0.25125 Dn Loss: 0.14873 	 G Loss: 61.68380 	 aug Loss: 59939.734	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 Dp Loss: 0.26606 Dn Loss: 0.37483 	 G Loss: 60.40921 	 aug Loss: 57955.176	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 Dp Loss: 1.48131 Dn Loss: 0.06461 	 G Loss: 60.08142 	 aug Loss: 58380.980	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 Dp Loss: 0.56972 Dn Loss: 0.22504 	 G Loss: 59.09639 	 aug Loss: 57672.539	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 Dp Loss: 0.67730 Dn Loss: 0.24115 	 G Loss: 57.62735 	 aug Loss: 56502.316	 LwF Loss: 0.00000
+[GAN Epoch 00027]	 D Loss: 72.936 	 G Loss: 5895.581 	 LwF Loss: 0.000	  per_epoch_time: 270.353
+[GAN Epoch 00028]	 Dp Loss: 1.00467 Dn Loss: 1.57940 	 G Loss: 61.06914 	 aug Loss: 58962.602	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 Dp Loss: 0.22418 Dn Loss: 0.32117 	 G Loss: 64.20930 	 aug Loss: 62498.945	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 Dp Loss: 0.46037 Dn Loss: 0.31997 	 G Loss: 62.04130 	 aug Loss: 60542.418	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 Dp Loss: 0.30122 Dn Loss: 0.36892 	 G Loss: 64.67012 	 aug Loss: 63157.668	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 Dp Loss: 0.47172 Dn Loss: 0.31416 	 G Loss: 62.98415 	 aug Loss: 61385.156	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 Dp Loss: 0.22082 Dn Loss: 0.30925 	 G Loss: 62.22902 	 aug Loss: 60271.637	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 Dp Loss: 0.34534 Dn Loss: 0.24384 	 G Loss: 61.41090 	 aug Loss: 59513.961	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 Dp Loss: 0.37406 Dn Loss: 0.30433 	 G Loss: 60.13708 	 aug Loss: 58478.398	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 Dp Loss: 0.57415 Dn Loss: 0.30791 	 G Loss: 63.74720 	 aug Loss: 62084.551	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 Dp Loss: 2.10805 Dn Loss: 0.06086 	 G Loss: 61.12520 	 aug Loss: 58329.598	 LwF Loss: 0.00000
+[GAN Epoch 00028]	 D Loss: 78.085 	 G Loss: 5936.396 	 LwF Loss: 0.000	  per_epoch_time: 257.747
+[GAN Epoch 00029]	 Dp Loss: 1.66395 Dn Loss: 0.42171 	 G Loss: 63.90215 	 aug Loss: 62465.164	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 Dp Loss: 0.15710 Dn Loss: 0.27811 	 G Loss: 63.51559 	 aug Loss: 61763.180	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 Dp Loss: 0.32716 Dn Loss: 0.31379 	 G Loss: 60.08083 	 aug Loss: 58356.086	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 Dp Loss: 0.23422 Dn Loss: 0.39537 	 G Loss: 63.81624 	 aug Loss: 62155.383	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 Dp Loss: 0.31386 Dn Loss: 0.33874 	 G Loss: 63.03306 	 aug Loss: 61461.484	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 Dp Loss: 0.14675 Dn Loss: 0.46218 	 G Loss: 61.71632 	 aug Loss: 59732.223	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 Dp Loss: 0.26838 Dn Loss: 0.23682 	 G Loss: 61.64495 	 aug Loss: 59620.098	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 Dp Loss: 0.42224 Dn Loss: 0.44271 	 G Loss: 62.58448 	 aug Loss: 60737.160	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 Dp Loss: 0.09975 Dn Loss: 1.87779 	 G Loss: 68.28120 	 aug Loss: 65656.734	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 Dp Loss: 0.48674 Dn Loss: 0.39189 	 G Loss: 62.60048 	 aug Loss: 61232.434	 LwF Loss: 0.00000
+[GAN Epoch 00029]	 D Loss: 74.117 	 G Loss: 5812.366 	 LwF Loss: 0.000	  per_epoch_time: 254.478
+[GAN Epoch 00030]	 Dp Loss: 1.77066 Dn Loss: 0.41483 	 G Loss: 58.88501 	 aug Loss: 57605.762	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 Dp Loss: 0.23217 Dn Loss: 0.29868 	 G Loss: 57.85461 	 aug Loss: 55895.738	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 Dp Loss: 0.32677 Dn Loss: 0.51691 	 G Loss: 59.24460 	 aug Loss: 57302.715	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 Dp Loss: 0.23708 Dn Loss: 0.35814 	 G Loss: 60.35252 	 aug Loss: 58381.332	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 Dp Loss: 0.29885 Dn Loss: 0.31641 	 G Loss: 57.11065 	 aug Loss: 55521.977	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 Dp Loss: 0.59482 Dn Loss: 0.20488 	 G Loss: 57.27723 	 aug Loss: 55282.812	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 Dp Loss: 0.24520 Dn Loss: 0.30766 	 G Loss: 58.40359 	 aug Loss: 56489.371	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 Dp Loss: 0.63358 Dn Loss: 0.24372 	 G Loss: 60.51278 	 aug Loss: 58820.680	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 Dp Loss: 0.97781 Dn Loss: 0.12983 	 G Loss: 57.57364 	 aug Loss: 55961.844	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 Dp Loss: 0.75175 Dn Loss: 0.21472 	 G Loss: 62.84259 	 aug Loss: 61457.270	 LwF Loss: 0.00000
+[GAN Epoch 00030]	 D Loss: 75.905 	 G Loss: 5644.592 	 LwF Loss: 0.000	  per_epoch_time: 251.607
+[GAN Epoch 00031]	 Dp Loss: 2.19508 Dn Loss: 0.49217 	 G Loss: 63.54091 	 aug Loss: 62124.102	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 Dp Loss: 0.15609 Dn Loss: 0.29402 	 G Loss: 62.60109 	 aug Loss: 60674.977	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 Dp Loss: 0.29523 Dn Loss: 0.35406 	 G Loss: 58.78736 	 aug Loss: 56915.211	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 Dp Loss: 0.29648 Dn Loss: 0.31689 	 G Loss: 57.96222 	 aug Loss: 56122.941	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 Dp Loss: 0.18081 Dn Loss: 0.57083 	 G Loss: 63.84446 	 aug Loss: 61512.180	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 Dp Loss: 0.14714 Dn Loss: 0.40170 	 G Loss: 58.09873 	 aug Loss: 56373.406	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 Dp Loss: 0.16797 Dn Loss: 0.22780 	 G Loss: 58.44427 	 aug Loss: 56375.047	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 Dp Loss: 0.67683 Dn Loss: 0.14286 	 G Loss: 62.15189 	 aug Loss: 60212.461	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 Dp Loss: 0.24873 Dn Loss: 0.69636 	 G Loss: 64.39322 	 aug Loss: 62000.434	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 Dp Loss: 0.29373 Dn Loss: 0.48285 	 G Loss: 64.16956 	 aug Loss: 62317.086	 LwF Loss: 0.00000
+[GAN Epoch 00031]	 D Loss: 69.633 	 G Loss: 5748.944 	 LwF Loss: 0.000	  per_epoch_time: 251.556
+[GAN Epoch 00032]	 Dp Loss: 1.84608 Dn Loss: 1.16745 	 G Loss: 65.66999 	 aug Loss: 63693.262	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 Dp Loss: 0.07649 Dn Loss: 0.29320 	 G Loss: 59.92643 	 aug Loss: 57832.695	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 Dp Loss: 0.44481 Dn Loss: 0.27786 	 G Loss: 62.76488 	 aug Loss: 61067.527	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 Dp Loss: 0.35011 Dn Loss: 0.19939 	 G Loss: 58.97089 	 aug Loss: 57256.578	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 Dp Loss: 0.20798 Dn Loss: 0.41567 	 G Loss: 60.41130 	 aug Loss: 58387.520	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 Dp Loss: 0.16303 Dn Loss: 0.46644 	 G Loss: 65.40963 	 aug Loss: 63774.625	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 Dp Loss: 0.13092 Dn Loss: 0.32672 	 G Loss: 66.64848 	 aug Loss: 64313.828	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 Dp Loss: 0.31513 Dn Loss: 0.39554 	 G Loss: 67.15032 	 aug Loss: 65028.418	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 Dp Loss: 1.25147 Dn Loss: 0.06497 	 G Loss: 70.02478 	 aug Loss: 67949.969	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 Dp Loss: 0.68298 Dn Loss: 0.20040 	 G Loss: 65.16508 	 aug Loss: 63941.102	 LwF Loss: 0.00000
+[GAN Epoch 00032]	 D Loss: 68.927 	 G Loss: 6034.282 	 LwF Loss: 0.000	  per_epoch_time: 260.796
+[GAN Epoch 00033]	 Dp Loss: 1.80321 Dn Loss: 0.93984 	 G Loss: 65.52969 	 aug Loss: 63814.344	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 Dp Loss: 0.15251 Dn Loss: 0.26269 	 G Loss: 63.48732 	 aug Loss: 61453.328	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 Dp Loss: 0.39704 Dn Loss: 0.20498 	 G Loss: 62.68397 	 aug Loss: 60701.438	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 Dp Loss: 0.28157 Dn Loss: 0.31413 	 G Loss: 64.84338 	 aug Loss: 62716.426	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 Dp Loss: 0.20877 Dn Loss: 0.34241 	 G Loss: 63.03205 	 aug Loss: 61019.402	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 Dp Loss: 0.16376 Dn Loss: 0.41958 	 G Loss: 64.05749 	 aug Loss: 62210.305	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 Dp Loss: 0.20506 Dn Loss: 0.21584 	 G Loss: 66.84784 	 aug Loss: 64708.098	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 Dp Loss: 0.46730 Dn Loss: 0.35697 	 G Loss: 70.71642 	 aug Loss: 68874.680	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 Dp Loss: 0.69238 Dn Loss: 0.20159 	 G Loss: 73.42308 	 aug Loss: 71715.023	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 Dp Loss: 1.59196 Dn Loss: 0.08254 	 G Loss: 66.00887 	 aug Loss: 64045.879	 LwF Loss: 0.00000
+[GAN Epoch 00033]	 D Loss: 68.415 	 G Loss: 6224.767 	 LwF Loss: 0.000	  per_epoch_time: 249.848
+[GAN Epoch 00034]	 Dp Loss: 3.06097 Dn Loss: 0.08238 	 G Loss: 69.55482 	 aug Loss: 67642.664	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 Dp Loss: 0.12974 Dn Loss: 0.23323 	 G Loss: 65.60996 	 aug Loss: 63866.414	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 Dp Loss: 0.28581 Dn Loss: 0.22593 	 G Loss: 61.74443 	 aug Loss: 60009.289	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 Dp Loss: 0.29376 Dn Loss: 0.23119 	 G Loss: 58.30120 	 aug Loss: 56540.992	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 Dp Loss: 0.48210 Dn Loss: 0.18912 	 G Loss: 58.56985 	 aug Loss: 56857.641	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 Dp Loss: 0.35879 Dn Loss: 0.23347 	 G Loss: 63.89848 	 aug Loss: 62023.887	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 Dp Loss: 0.26992 Dn Loss: 0.19619 	 G Loss: 62.90850 	 aug Loss: 60951.371	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 Dp Loss: 0.51416 Dn Loss: 0.22417 	 G Loss: 60.97773 	 aug Loss: 59098.828	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 Dp Loss: 0.45302 Dn Loss: 0.21832 	 G Loss: 63.66176 	 aug Loss: 61871.109	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 Dp Loss: 0.36778 Dn Loss: 0.39992 	 G Loss: 60.70329 	 aug Loss: 58994.008	 LwF Loss: 0.00000
+[GAN Epoch 00034]	 D Loss: 65.056 	 G Loss: 5806.281 	 LwF Loss: 0.000	  per_epoch_time: 244.554
+[GAN Epoch 00035]	 Dp Loss: 1.39728 Dn Loss: 0.85619 	 G Loss: 56.11830 	 aug Loss: 54419.723	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 Dp Loss: 0.09979 Dn Loss: 0.25128 	 G Loss: 60.46259 	 aug Loss: 58190.332	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 Dp Loss: 0.24491 Dn Loss: 0.29269 	 G Loss: 62.47869 	 aug Loss: 60105.941	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 Dp Loss: 0.45504 Dn Loss: 0.15699 	 G Loss: 64.81824 	 aug Loss: 62610.383	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 Dp Loss: 0.43013 Dn Loss: 0.24473 	 G Loss: 67.36519 	 aug Loss: 65567.508	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 Dp Loss: 0.37211 Dn Loss: 0.26714 	 G Loss: 66.75146 	 aug Loss: 65122.781	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 Dp Loss: 0.30594 Dn Loss: 0.23428 	 G Loss: 72.07702 	 aug Loss: 69979.664	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 Dp Loss: 0.51654 Dn Loss: 0.36628 	 G Loss: 70.69099 	 aug Loss: 69104.273	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 Dp Loss: 1.05351 Dn Loss: 0.12715 	 G Loss: 64.52061 	 aug Loss: 63523.520	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 Dp Loss: 0.43583 Dn Loss: 0.37685 	 G Loss: 65.50161 	 aug Loss: 64236.352	 LwF Loss: 0.00000
+[GAN Epoch 00035]	 D Loss: 67.886 	 G Loss: 6127.311 	 LwF Loss: 0.000	  per_epoch_time: 256.280
+[GAN Epoch 00036]	 Dp Loss: 1.46472 Dn Loss: 0.54074 	 G Loss: 63.28416 	 aug Loss: 62334.305	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 Dp Loss: 0.12254 Dn Loss: 0.31271 	 G Loss: 59.83855 	 aug Loss: 57762.594	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 Dp Loss: 0.31870 Dn Loss: 0.32002 	 G Loss: 58.19938 	 aug Loss: 56232.664	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 Dp Loss: 0.33358 Dn Loss: 0.23487 	 G Loss: 58.23230 	 aug Loss: 56274.234	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 Dp Loss: 0.20440 Dn Loss: 0.44665 	 G Loss: 63.02168 	 aug Loss: 61169.625	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 Dp Loss: 0.21140 Dn Loss: 0.61701 	 G Loss: 63.51859 	 aug Loss: 61867.680	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 Dp Loss: 0.18521 Dn Loss: 0.44146 	 G Loss: 68.62550 	 aug Loss: 66731.195	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 Dp Loss: 0.60028 Dn Loss: 0.28031 	 G Loss: 67.64111 	 aug Loss: 66042.344	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 Dp Loss: 0.83255 Dn Loss: 0.18709 	 G Loss: 68.51689 	 aug Loss: 67531.031	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 Dp Loss: 0.49977 Dn Loss: 0.30928 	 G Loss: 68.34132 	 aug Loss: 67245.727	 LwF Loss: 0.00000
+[GAN Epoch 00036]	 D Loss: 72.043 	 G Loss: 5991.110 	 LwF Loss: 0.000	  per_epoch_time: 260.105
+[GAN Epoch 00037]	 Dp Loss: 1.20883 Dn Loss: 0.71384 	 G Loss: 67.46413 	 aug Loss: 66140.531	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 Dp Loss: 0.20435 Dn Loss: 0.27568 	 G Loss: 62.86740 	 aug Loss: 60461.918	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 Dp Loss: 0.64108 Dn Loss: 0.19696 	 G Loss: 63.88416 	 aug Loss: 62185.383	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 Dp Loss: 0.58793 Dn Loss: 0.13818 	 G Loss: 61.35511 	 aug Loss: 59775.559	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 Dp Loss: 0.95248 Dn Loss: 0.09259 	 G Loss: 64.79241 	 aug Loss: 62918.680	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 Dp Loss: 0.32526 Dn Loss: 0.19187 	 G Loss: 65.40125 	 aug Loss: 63658.273	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 Dp Loss: 0.18262 Dn Loss: 0.31716 	 G Loss: 72.54409 	 aug Loss: 70112.375	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 Dp Loss: 0.68924 Dn Loss: 0.33457 	 G Loss: 76.15369 	 aug Loss: 74429.508	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 Dp Loss: 1.07102 Dn Loss: 0.12143 	 G Loss: 71.88693 	 aug Loss: 70399.602	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 Dp Loss: 0.27636 Dn Loss: 0.71244 	 G Loss: 63.68093 	 aug Loss: 61733.160	 LwF Loss: 0.00000
+[GAN Epoch 00037]	 D Loss: 70.916 	 G Loss: 6317.667 	 LwF Loss: 0.000	  per_epoch_time: 249.821
+[GAN Epoch 00038]	 Dp Loss: 1.42057 Dn Loss: 0.60074 	 G Loss: 61.45005 	 aug Loss: 60122.086	 LwF Loss: 0.00000

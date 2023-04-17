@@ -1,0 +1,20 @@
+# 代码说明
+该代码从github官方GFR-IL更改过来
+
+主要更改位置:
+train_new.py：
+更改了transform的归一化参数，更改了WGAN位置GAN的训练逻辑，改成了CGAN的训练方式
+
+models/resnet.py：
+添加了Generator_IMG和Discriminator_IMG两个类
+
+test.py：
+更改了transform的归一化参数，与training对齐。
+
+
+
+# 训练过程
+python train_new.py -data cifar100 -num_task 5 -epochs_gan 501 -tradeoff 1 -epochs 201 -lr_decay_step 200 -log_dir cifar100_10tasks -dir ../ -gpu 0
+
+# 测试跑分
+python test.py -data cifar100 -num_task 5 -epochs 201 -dir ../ -gpu 0 -r checkpoints/cifar100_5tasks_0227night/ -name cifar100_10
