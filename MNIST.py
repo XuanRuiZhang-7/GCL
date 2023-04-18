@@ -22,10 +22,14 @@ class MNIST(Dataset):  # 继承Dataset
     img_size_flat = img_size * img_size
 
 
-    filename_x_train = "train-images-idx3-ubyte.gz"
-    filename_y_train = "train-labels-idx1-ubyte.gz"
-    filename_x_test = "t10k-images-idx3-ubyte.gz"
-    filename_y_test = "t10k-labels-idx1-ubyte.gz"
+#     filename_x_train = "train-images-idx3-ubyte.gz"
+#     filename_y_train = "train-labels-idx1-ubyte.gz"
+#     filename_x_test = "t10k-images-idx3-ubyte.gz"
+#     filename_y_test = "t10k-labels-idx1-ubyte.gz"
+     filename_x_train = "train-images-idx3-ubyte"
+    filename_y_train = "train-labels-idx1-ubyte"
+    filename_x_test = "t10k-images-idx3-ubyte"
+    filename_y_test = "t10k-labels-idx1-ubyte"
 
     def __init__(self, root, train=True,
                      transform=None, target_transform=None,
