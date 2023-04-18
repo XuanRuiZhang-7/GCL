@@ -798,7 +798,7 @@ if __name__ == '__main__':
             # # 数据包装
             # trainset = torch.utils.data.TensorDataset(x_train, t_train)
             # train_loader = torch.utils.data.DataLoader(trainset, batch_size=args.BatchSize)
-        elif args.data == 'fashion_mnist':
+        elif args.data == 'fashionmnist':
             # train_dataset = torchvision.datasets.MNIST(root=traindir, train=True, transform=transform_train, download=True)
 
             np.random.seed(args.seed)
@@ -807,7 +807,7 @@ if __name__ == '__main__':
                              target_transform=target_transform, index=class_index)
             train_loader = torch.utils.data.DataLoader(trainset, batch_size=args.BatchSize, shuffle=True,
                                                        num_workers=args.nThreads, drop_last=True)
-            testset = Fashion_MNIST(root='D:\Dataset\/fashion_mnist', train=False, download=True, transform=transform_train,
+            testset = Fashion_MNIST(root=traindir, train=False, download=True, transform=transform_train,
                             target_transform=None, index=class_index)
             test_loader = torch.utils.data.DataLoader(testset, batch_size=128, shuffle=False, num_workers=0,
                                                       drop_last=False)
